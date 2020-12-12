@@ -37,6 +37,17 @@ The purpose of the Scully Page Title plugin is to replace a page's title with wh
 
 ## Usage
 
+Render plugins get access to information about the route, and the plugin looks for the title in the following locations in order:
+
+- `route.title`
+- `route.data.title`
+- `route.pageTitle`
+- `route.data.pageTitle`
+- `route.page_title`
+- `route.data.page_title`
+
+> If the title is set in the frontmatter of a markdown file, the attribute shows up on `route.data`.
+
 To use this plugin, you need to just require the package inside the Scully `config.ts` for your project, i.e. `scully.your-project-name.config.ts`. After requiring the plugin, add it to the `defaultPostRenderers` array for the site:
 
 ```ts
