@@ -6,7 +6,13 @@ const changeTitlePlugin = async (html, route) => {
 	try {
 		log(`Changing page title for ${yellow(route.route)}.`);
 		const dom = new JSDOM(html);
-		const routeTitle = route.title || route.pageTitle || route.page_title;
+		const routeTitle =
+			route.title ||
+			route?.data?.title ||
+			route.pageTitle ||
+			route?.data?.pageTitle ||
+			route.page_title ||
+			route?.data?.page_title;
 		if (routeTitle) {
 			log(`Page title attribute found for ${yellow(route.route)}.`);
 			const { window } = dom;
