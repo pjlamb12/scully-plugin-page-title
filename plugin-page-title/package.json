@@ -1,0 +1,34 @@
+{
+	"name": "scully-plugin-page-title",
+	"version": "0.0.0",
+	"description": "Scully plugin to change the title of a page to what is set in the route data",
+	"main": "src/index.js",
+	"author": "pjlamb12",
+	"contributors": [
+		{
+			"name": "Preston Lamb",
+			"url": "https://www.prestonlamb.com"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/pjlamb12/scully-plugin-page-title.git"
+	},
+	"bugs": {
+		"url": "https://github.com//pjlamb12/scully-plugin-page-title/issues"
+	},
+	"homepage": "",
+	"keywords": [
+		"scully",
+		"angular",
+		"title",
+		"page title"
+	],
+	"license": "MIT",
+	"peerDependencies": {
+		"@scullyio/scully": "^1.0.8"
+	},
+	"dependencies": {
+		"jsdom": "^16.4.0"
+	}
+}
