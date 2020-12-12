@@ -37,6 +37,17 @@ The purpose of the Scully Page Title plugin is to replace a page's title with wh
 
 ## Usage
 
+Render plugins get access to information about the route, and the plugin looks for the title in the following locations in order:
+
+- `route.title`
+- `route.data.title`
+- `route.pageTitle`
+- `route.data.pageTitle`
+- `route.page_title`
+- `route.data.page_title`
+
+> If the title is set in the frontmatter of a markdown file, the attribute shows up on `route.data`.
+
 To use this plugin, you need to just require the package inside the Scully `config.ts` for your project, i.e. `scully.your-project-name.config.ts`. After requiring the plugin, add it to the `defaultPostRenderers` array for the site:
 
 ```ts
@@ -82,9 +93,15 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/pjlamb12"><img src="https://avatars3.githubusercontent.com/u/2006222?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Preston Lamb</b></sub></a><br /><a href="https://github.com/pjlamb12/scully-plugin-page-title/commits?author=pjlamb12" title="Code">💻</a> <a href="https://github.com/pjlamb12/scully-plugin-page-title/commits?author=pjlamb12" title="Documentation">📖</a> <a href="https://github.com/pjlamb12/scully-plugin-page-title/commits?author=pjlamb12" title="Tests">⚠️</a></td>
+  </tr>
+</table>
 
-<!-- markdownlint-enable -->
+<!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
