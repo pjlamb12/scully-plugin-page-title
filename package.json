@@ -15,7 +15,7 @@
 		"release:first": "npm run release -- --first-release",
 		"build:lib": "ng build scully-plugin-page-title",
 		"test:lib": "jest plugin-page-title/src/plugin-page-title.spec.js",
-		"build:copy-readme": "cp ./README.md ./plugin-page-title && cp ./logo.svg ./plugin-page-title",
+		"build:copy-readme": "cp ./README.md ./plugin-page-title",
 		"release": "cd plugin-page-title && standard-version --infile ../CHANGELOG.md",
 		"test:lib:headless": "cross-env CI=true npm run test:lib",
 		"scully": "scully",
