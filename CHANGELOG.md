@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/pjlamb12/scully-plugin-page-title/compare/v1.1.0...v1.1.1) (2020-12-12)
+
+
+### Bug Fixes
+
+* 🐛 remove optional chaining ([9b20a90](https://github.com/pjlamb12/scully-plugin-page-title/commit/9b20a90dc3f11469937b379783d74bc67b385abb)), closes [#6](https://github.com/pjlamb12/scully-plugin-page-title/issues/6)
+
 ## [1.1.0](https://github.com/pjlamb12/scully-plugin-page-title/compare/v1.0.0...v1.1.0) (2020-12-12)
 
 
