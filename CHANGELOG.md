@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/pjlamb12/scully-plugin-page-title/compare/v1.1.1...v2.0.0) (2021-03-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* **postprocessbyhtml:** Update to lastest Scully version
+
+* **postprocessbyhtml:** update the render process to postProcessByHtml ([63c2d17](https://github.com/pjlamb12/scully-plugin-page-title/commit/63c2d170acbc4a1bd864c4c5f3c1bc9349fdfb0a)), closes [#8](https://github.com/pjlamb12/scully-plugin-page-title/issues/8)
+
 ### [1.1.1](https://github.com/pjlamb12/scully-plugin-page-title/compare/v1.1.0...v1.1.1) (2020-12-12)
 
 
