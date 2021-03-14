@@ -1,66 +1,32 @@
 
-----------------------------------
-Using stored unhandled routes!.
-   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
-----------------------------------
+      =====================================================================================================
+      Config file "./scully.scully-plugin-page-title.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as undefined you can use:
+          --project differentProjectName as a cmd line option
 
-----------------------------------
-Using stored unhandled routes!.
-   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
-----------------------------------
-
-----------------------------------
-Using stored unhandled routes!.
-   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
-----------------------------------
- The render plugin "combineStylesAmpPlugin has thrown the below error,
-              while trying to render route "/"
-              Scully will exitTypeError: Cannot read property 'undefinedRoute_Config_Data__' of undefined
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+The option outDir isn't configured, using default folder "./dist/static/".No routes defined in ""
 
 
-----------------------------------
-Using stored unhandled routes!.
-   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
-----------------------------------
- The render plugin "combineStylesAmpPlugin has thrown the below error,
-              while trying to render route "/"
-              Scully will exitTypeError: Cannot read property 'undefinedRoute_Config_Data__' of undefined
 
+      =====================================================================================================
+      Config file "./scully.scully-plugin-page-title.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as scully-plugin-page-title you can use:
+          --project differentProjectName as a cmd line option
 
-----------------------------------
-Using stored unhandled routes!.
-   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
-----------------------------------
- The render plugin "combineStylesAmpPlugin has thrown the below error,
-              while trying to render route "/"
-              Scully will exitTypeError: Cannot read property 'undefinedRoute_Config_Data__' of undefined
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+The option outDir isn't configured, using default folder "./dist/static/".No routes defined in ""
 
-
-----------------------------------
-Using stored unhandled routes!.
-   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
-----------------------------------
- The render plugin "combineStylesAmpPlugin has thrown the below error,
-              while trying to render route "/"
-              Scully will exitTypeError: Cannot read property 'undefinedRoute_Config_Data__' of undefined
-
-
-----------------------------------
-Using stored unhandled routes!.
-   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
-----------------------------------
- The render plugin "combineStylesAmpPlugin has thrown the below error,
-              while trying to render route "/"
-              Scully will exitTypeError: Cannot read property 'undefinedRoute_Config_Data__' of undefined
-
-
-----------------------------------
-Using stored unhandled routes!.
-   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
-----------------------------------
-TypeError: Cannot read property 'undefinedRoute_Config_Data__' of undefined The render plugin "combineStylesAmpPlugin has thrown the below error,
-              while trying to render route "/"
-              Scully will exit
 
 
 ----------------------------------
@@ -68,43 +34,165 @@ Using stored unhandled routes!.
    To discover new routes in the angular app use "npm run scully -- --scanRoutes"
 ----------------------------------
 
-----------------------------------
-Using stored unhandled routes!.
-   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
-----------------------------------
+      =====================================================================================================
+      Config file "./scully.scully-plugin-page-title.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as undefined you can use:
+          --project differentProjectName as a cmd line option
+
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+The option outDir isn't configured, using default folder "./dist/static/".No routes defined in ""
+
+
+
+      =====================================================================================================
+      Config file "./scully.scully-plugin-page-title.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as scully-plugin-page-title you can use:
+          --project differentProjectName as a cmd line option
+
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+The option outDir isn't configured, using default folder "./dist/static/".No routes defined in ""
+
+
 
 ----------------------------------
 Using stored unhandled routes!.
    To discover new routes in the angular app use "npm run scully -- --scanRoutes"
 ----------------------------------
 
-----------------------------------
-Using stored unhandled routes!.
-   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
-----------------------------------
+      =====================================================================================================
+      Config file "./scully.scully-plugin-page-title.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as undefined you can use:
+          --project differentProjectName as a cmd line option
+
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+The option outDir isn't configured, using default folder "./dist/static/".No routes defined in ""
+
+
+
+      =====================================================================================================
+      Config file "./scully.scully-plugin-page-title.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as scully-plugin-page-title you can use:
+          --project differentProjectName as a cmd line option
+
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+The option outDir isn't configured, using default folder "./dist/static/".No routes defined in ""
+
+
+
+      =====================================================================================================
+      Config file "./scully.scully-plugin-page-title.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as undefined you can use:
+          --project differentProjectName as a cmd line option
+
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+The option outDir isn't configured, using default folder "./dist/static/".No routes defined in ""
+
+
+
+      =====================================================================================================
+      Config file "./scully.scully-plugin-page-title.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as scully-plugin-page-title you can use:
+          --project differentProjectName as a cmd line option
+
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+The option outDir isn't configured, using default folder "./dist/static/".No routes defined in ""
+
+
 
 ----------------------------------
 Using stored unhandled routes!.
    To discover new routes in the angular app use "npm run scully -- --scanRoutes"
 ----------------------------------
-Error in combineStylesPlugin, didn't parse for route "/"
 
-----------------------------------
-Using stored unhandled routes!.
-   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
-----------------------------------
-TypeError: JSDOM is not a constructorError in combineStylesPlugin, didn't parse for route "/"
+      =====================================================================================================
+      Config file "./scully.scully-plugin-page-title.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as undefined you can use:
+          --project differentProjectName as a cmd line option
+
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+The option outDir isn't configured, using default folder "./dist/static/".No routes defined in ""
 
 
-----------------------------------
-Using stored unhandled routes!.
-   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
-----------------------------------
 
-----------------------------------
-Using stored unhandled routes!.
-   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
-----------------------------------
+      =====================================================================================================
+      Config file "./scully.scully-plugin-page-title.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as scully-plugin-page-title you can use:
+          --project differentProjectName as a cmd line option
+
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+The option outDir isn't configured, using default folder "./dist/static/".No routes defined in ""
+
+
+
+      =====================================================================================================
+      Config file "./scully.scully-plugin-page-title.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as undefined you can use:
+          --project differentProjectName as a cmd line option
+
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+No routes defined in ""The option outDir isn't configured, using default folder "./dist/static/".
+
+
+
+      =====================================================================================================
+      Config file "./scully.scully-plugin-page-title.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as scully-plugin-page-title you can use:
+          --project differentProjectName as a cmd line option
+
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+The option outDir isn't configured, using default folder "./dist/static/".No routes defined in ""
+
+
 
 ----------------------------------
 Using stored unhandled routes!.
